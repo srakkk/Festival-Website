@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffb657;
+    background-color:  rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(148,62,159,1) 0%, rgba(164,70,65,0.8662815467984069) 0%, rgba(224,78,65,0.846673703661152) 30%, rgba(253,84,29,0.846673703661152) 54%, rgba(252,176,69,0.8074580173866421) 100%);
+    font-family: 'Poppins',sans-serif;
+}
+/* #f6e6d9 */
+.menu{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
+    grid-gap: 20px 40px;
+}
+.heading{
+    background-color:#e67839;
+    background: rgba(230, 120, 57,0.3);
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding: 10px 0 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+    padding-top: 0;
+}
+.heading>h1{
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    
+}
+.heading>h3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 0 20px;
+    background-color: #e67839;
+    background: rgba(230, 120, 57,0.4);
+   
+    
+}
+.food-items img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.details{
+    padding: 20px 10px;
+    padding-bottom: 1px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details-sub>h5{
+    font-weight: 600;
+    font-size: 17px;
+}
+.taste{
+    text-align: right;
+
+}
+.details>p{
+    color: black;
+    font-size: 1.2rem;
+    line-height: 28px;
+    font-weight: 400;
+    align-self:baseline;
+    font-family: 'Ms Madi', cursive;
+    
+    
+}
+
+/* ul#horizontal-list li {
+    display:inline-block;
+} */
+.firstb{
+    display: inline;
+    margin-right: 50px;
+}
+
+nav{margin:0;
+
+    display:flex;
+    height:80px;
+    background: #e67839;
+    background: rgba(230, 120, 57,0.0);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Ms Madi', cursive;
+}
+
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color:white;
+    }
+    a:hover{
+        text-decoration: underline;
+        color:whitesmoke;
+    
+    }
+
+.card4{
+        width: 50px; 
+        margin-left: 90px;
+        margin-bottom:5px;
+        cursor:pointer;
+        margin-top: -54px;
+    }
+    
+.card5{
+        width: 50px; 
+        margin-left: 30px;
+        margin-bottom: 5px;
+        cursor:pointer;
+        
+    }
+    

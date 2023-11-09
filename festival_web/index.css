@@ -1,0 +1,175 @@
+nav{margin:0;
+    display:flex;
+    height:80px;
+    background: rgba(230, 120, 57,0.3);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+   
+   
+
+}
+body{
+    padding:0;
+    font-family:  cursive; 
+    margin:0;
+    background-color:  rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(148,62,159,1) 0%, rgba(164,70,65,0.8662815467984069) 0%, rgba(224,78,65,0.846673703661152) 30%, rgba(253,84,29,0.846673703661152) 54%, rgba(252,176,69,0.8074580173866421) 100%);
+    
+}
+
+
+
+html {
+    margin:0;
+    padding:0;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+    margin:1rem
+}
+
+
+
+.c1{min-width:45vw;
+    max-width: 60vw;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size: 1.5rem;
+    padding:1rem;
+    text-align: center;
+    
+}
+.c2 img{
+    max-height: 65vh;
+    max-width: 55vw;
+    margin: 0.5rem;
+    border: 0.5rem solid #ffffff;
+    animation: box-glow 2s ease-in-out infinite alternate;
+}
+.c2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.btn{
+    display: inline-block;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: rgba(252,176,69,0.2);
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    margin: 1rem;
+    cursor: pointer;
+    
+}
+.btn:hover{
+  
+    border: 3px solid #ffffff;
+    
+    background-color: rgba(252,176,69,0.8);;
+    color:white;
+    
+}
+
+.btn:active{
+
+    border: 3px solid #000000;
+    background-color: rgba(252,176,69,0.2);
+    color: unset;
+    
+}
+.title{
+    font-size: 4.5rem;
+    font-family: 'Ms Madi', cursive;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+    
+
+    
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073;
+      }
+      to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;
+      }
+  }
+  @keyframes box-glow {
+    from {
+      box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e60073, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073;
+    }
+    to {
+      box-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6;
+    }
+  }
+.subtitle{
+
+    font-size: 2rem;
+    color: rgb(72, 11, 11);
+    mix-blend-mode: luminosity;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+   
+}
+.subtitle:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:white;
+}
+nav a:hover{
+    text-decoration: underline;
+    color:whitesmoke;
+
+}
+
+.selectors{
+    padding-left: 1rem;
+}
+
+.btnn{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+.btnn:hover{
+    color: #e60073;
+    
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+

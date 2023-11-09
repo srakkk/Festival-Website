@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cover</title>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <nav>
+            <span class="navitem"><img src="https://github.com/srakkk/deepavali/blob/main/diya.png?raw=true" alt="logo here" class="logo" width="120rem"></span>
+            <span><a href="index.html">Cover</a></span>
+            <span><a href="About.html">About</a></span>
+            <span><a href="Foods.html">Foods</a></span>
+            <span><a href="Tradition.html">Traditions</a></span>
+            <span><a href="https://github.com/srakkk/deepavali/blob/main/wishes.png?raw=true"><img src="https://github.com/srakkk/deepavali/blob/main/greeting-card.png?raw=true" width="50rem"></a></span>
+        </nav>
+        <main>
+             
+        
+<!--  topic 1-->
+        <div class="content">
+            <span class="c1">
+                <div class="title">Happy Deepavali</div>
+                <p class="subtitle">
+                    Happy and prosperous diwali to you and your family!
+                    <br>
+                    Let this diwali burn all your problems and difficulties and lighten you with bright light!
+                </p>
+                <div class="links">
+                    <div class="btn"><a href="About.html">LEARN MORE</a></div>
+                    <div class="btn"><a href="https://www.youtube.com/watch?v=pp59n0So-XE" target="_blank">WATCH VIDEO</a></div>
+                </div>
+               
+            </span>        
+            <span class="c2">
+                <img id="gallery" src="imagess/lamp.png" alt="image here">
+                <div class="selectors">
+                    <div class="btnn">1</div>
+                    <div class="btnn">2</div>
+                    <div class="btnn">3</div>
+                    <div class="btnn">4</div>
+                </div>
+            </span>
+        </div>
+    
+        </main>
+
+    </body>
+    <script>
+        var btnn = document.getElementsByClassName("btnn")
+        var gallery = document.getElementById("gallery");
+  
+  
+        var image = new Array(
+          "imagess/girl.jpg",
+          "imagess/unpic.jpg",
+          "imagess/indian-woman.jpg",
+          "imagess/firewwork.jpg"
+  
+        );
+  
+        for(let i=0; i<btnn.length; i++){
+          btnn[i].onclick = function(){
+  
+            gallery.src = image[i];
+  
+          }
+        }
+       </script>
+
+</html>
